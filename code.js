@@ -1,4 +1,4 @@
-// Copyrights C-EGG inc.
+// Copyrights C-EGG inc. 
 (function(){var aa;
 (function(a){function l(c){var b=c&7,k=0,d=0;1==b||4==b?k=d=1:2==b&&(k=d=2);c>>=3;b=(c&7)-k;if(0>b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0>b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0>b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0>b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0>b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0>
 b)return!1;k=d;d=0;1==b||4==b?(k+=1,d+=1):2==b&&(k+=2,d+=2);c>>=3;b=(c&7)-k;if(0!=b&&3!=b)return!1;b=(c>>3&7)-d;return 0==b||3==b}function g(c,b){if(0==c){if(128<=(b&448)&&l(b-128)||65536<=(b&229376)&&l(b-65536)||33554432<=(b&117440512)&&l(b-33554432))return!0}else if(1==c){if(16<=(b&56)&&l(b-16)||8192<=(b&28672)&&l(b-8192)||4194304<=(b&14680064)&&l(b-4194304))return!0}else if(2==c&&(2<=(b&7)&&l(b-2)||1024<=(b&3584)&&l(b-1024)||524288<=(b&1835008)&&l(b-524288)))return!0;return!1}function e(c,b){return c[b+
